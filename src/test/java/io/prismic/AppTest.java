@@ -164,8 +164,8 @@ public class AppTest {
       });
     String docchapter_expected = "<section data-field=\"docchapter.title\"><h1>Using with other projects</h1></section>\n"
       +"<section data-field=\"docchapter.intro\"><p>As advertised, meta-micro knows how to stay out of the way of the rest of your application. Here are some cases of how to use it with some of the most used open-source projects in JavaScript.</p></section>\n"
-      +"<section data-field=\"docchapter.priority\"><span class=\"number\">500.0</span></section>\n"
-      +"<section data-field=\"docchapter.docs\"><section data-field=\"linktodoc\"><a href=\"/UrDofwEAALAdpbNH/with-jquery\">with-jquery</a></section><section data-field=\"linktodoc\"><a href=\"/UrDp8AEAAPUdpbNL/with-bootstrap\">with-bootstrap</a></section></section>";
+      +"<section data-field=\"docchapter.docs\"><section data-field=\"linktodoc\"><a href=\"/UrDofwEAALAdpbNH/with-jquery\">with-jquery</a></section><section data-field=\"linktodoc\"><a href=\"/UrDp8AEAAPUdpbNL/with-bootstrap\">with-bootstrap</a></section></section>\n"
+      +"<section data-field=\"docchapter.priority\"><span class=\"number\">500.0</span></section>";
     Assert.assertEquals(
       "HTML serialization of docchapter \"Using meta-micro\"",
       docchapter_expected,
